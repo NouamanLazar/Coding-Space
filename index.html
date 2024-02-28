@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.7">
+  <meta name="description" content="Coding Space is a small website With online editor for HTML, CSS , JavaScript, and get live Result the special in this Website you can download your codes to your remote.">
+  <meta name="keywords" content="coding, programming, development, software, technology, learning, Road Maps, Front End, Back End , Html, css , js,javascript, editor, result, web frameworks">
+  <meta name="author" content="Nouaman Lazar">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Coding Space">
+  <meta property="og:description" content="Your coding website description here.">
+  <meta property="og:url" content="https://www.github.com/lazar1234lazar">
+  <meta property="og:image" content="https://www.yourwebsite.com/images/your-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>Coding Space</title>
+  <link rel="stylesheet" href="master.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism.min.css" rel="stylesheet" />
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+      <h1 class="logo">Coding Space</h1>
+      <ul class="nav-links">
+        <li><a href="#coding" class="current">Coding</a></li>
+        <li><a href="#ForYou">For You</a></li>
+        <li><a href="#frameworks">Frame Works</a></li>
+        <li><a href="#roadmap">Road Map</a></li>
+      </ul>
+  </nav>
+</header>
+<section>
+    <div class="container" id="coding">
+        <div class="editor" id="html">
+          <h3>Html <button class="copy-btn">Copy</button></h3>
+          <textarea id="html-code" class="code language-html" placeholder="Enter HTML code"></textarea>
+        </div> 
+          <div class="editor" style="background-image: url(media/pexels-irina-iriser-1379640.jpg);">
+            <h3>CSS <button class="copy-btn">Copy</button></h3>
+            <textarea id="css-code" class="code language-css" placeholder="Enter CSS code"></textarea>
+          </div>
+          <div class="editor" style="background-image: url(media/pexels-eberhard-grossgasteiger-1624496~2.jpg);">
+            <h3>JavaScript <button class="copy-btn">Copy</button></h3>
+            <textarea id="js-code" class="code language-javascript" placeholder="Enter JavaScript code"></textarea>
+          </div> 
+    </div>
+    <div class="result">
+        <h4>Result</h4>
+        <div class="output">
+            <iframe id="output-frame"></iframe>
+        </div>
+        <button id="download-btn">Download All Files</button>
+    </div>
+        
+    </section>
+    <section class="important-websites" id="ForYou">
+        <div class="cards">
+          <h2 style="width: 100%;">Important Websites For You</h2>
+          <div class="card">
+            <a href="https://developer.mozilla.org/en-US/" target="_blank">
+              <h3>MDN Web Docs</h3>
+              <p>Resources for developers, by developers.</p>
+            </a>
+          </div>
+          <div class="card">
+            <a href="https://stackoverflow.com/" target="_blank">
+              <h3>Stack Overflow</h3>
+              <p>Community of developers helping each other.</p>
+            </a>
+          </div>
+          <div class="card">
+            <a href="https://github.com/" target="_blank">
+              <h3>GitHub</h3>
+              <p>Platform for hosting and reviewing code.</p>
+            </a>
+          </div>
+          <div class="card">
+            <a href="https://www.w3schools.com/" target="_blank">
+              <h3>W3Schools</h3>
+              <p>Web development tutorials and references.</p>
+            </a>
+          </div>
+          <div class="card">
+            <a href="https://css-tricks.com/" target="_blank">
+              <h3>CSS-Tricks</h3>
+              <p>CSS tips, tricks, and tutorials.</p>
+            </a>
+          </div>
+          <div class="card">
+            <a href="https://www.freecodecamp.org/" target="_blank">
+              <h3>freeCodeCamp</h3>
+              <p>Learn to code for free.</p>
+            </a>
+          </div>
+          <div class="card">
+            <a href="https://www.codecademy.com/" target="_blank">
+              <h3>Codecademy</h3>
+              <p>Learn to code interactively.</p>
+            </a>
+          </div>
+          <div class="card">
+            <a href="https://www.devdocs.io/" target="_blank">
+              <h3>DevDocs</h3>
+              <p>API documentation for popular programming languages.</p>
+            </a>
+          </div>
+          <div class="card">
+            <a href="https://www.sitepoint.com/" target="_blank">
+              <h3>SitePoint</h3>
+              <p>Resources for web developers.</p>
+            </a>
+          </div>
+          <!-- Add more cards as needed -->
+        </div>
+      
+      </section>
+      <section class="web-frameworks" id="frameworks">
+        <h2 style="color: #007ab3;">Frameworks</h2>
+        <div class="framework-card">
+          <div class="framework-info">
+            <h3>React.js</h3>
+            <p>A JavaScript library for building user interfaces.</p>
+            <a href="https://reactjs.org/" target="_blank">Learn More</a>
+          </div>
+        </div>
+        <div class="framework-card">
+          <div class="framework-info">
+            <h3>Angular</h3>
+            <p>A platform and framework for building single-page client applications.</p>
+            <a href="https://angular.io/" target="_blank">Learn More</a>
+          </div>
+        </div>
+        <div class="framework-card">
+          <div class="framework-info">
+            <h3>Vue.js</h3>
+            <p>A progressive JavaScript framework for building user interfaces.</p>
+            <a href="https://vuejs.org/" target="_blank">Learn More</a>
+          </div>
+        </div>
+        <!-- Add more framework cards -->
+        <div class="framework-card">
+          <div class="framework-info">
+            <h3>Bootstrap</h3>
+            <p>The most popular HTML, CSS, and JS library in the world. It is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.</p>
+            <a href="https://getbootstrap.com/" target="_blank">Learn More</a>
+          </div>
+        </div>
+        <div class="framework-card">
+          <div class="framework-info">
+            <h3>Foundation</h3>
+            <p>A responsive front-end framework that helps create beautiful, responsive websites, apps, and emails.</p>
+            <a href="https://get.foundation/" target="_blank">Learn More</a>
+          </div>
+        </div>
+        <div class="framework-card">
+          <div class="framework-info">
+            <h3>Bulma</h3>
+            <p>A modern CSS framework based on Flexbox. It's easy to learn, highly customizable, and completely free.</p>
+            <a href="https://bulma.io/" target="_blank">Learn More</a>
+          </div>
+        </div>
+        <div class="framework-card">
+          <div class="framework-info">
+            <h3>Semantic UI</h3>
+            <p>A development framework that helps create beautiful, responsive layouts using human-friendly HTML. It's designed for theming and highly integrated with various front-end libraries.</p>
+            <a href="https://semantic-ui.com/" target="_blank">Learn More</a>
+          </div>
+        </div>
+        <div class="framework-card">
+          <div class="framework-info">
+            <h3>Tailwind CSS</h3>
+            <p>A utility-first CSS framework for rapid UI development. It allows you to build designs without writing custom CSS by providing low-level utility classes that can be composed to create custom designs.</p>
+            <a href="https://tailwindcss.com/" target="_blank">Learn More</a>
+          </div>
+        </div>
+        <div class="framework-card">
+          <div class="framework-info">
+            <h3>Materialize CSS</h3>
+            <p>A modern responsive front-end framework based on Material Design. It's easy to use, fully responsive, and provides a clean and consistent user experience across devices.</p>
+            <a href="https://materializecss.com/" target="_blank">Learn More</a>
+          </div>
+        </div>
+      </section>
+      <section class="roadmap" id="roadmap">
+        <h2>Roadmap for Full Stack Developers</h2>
+        <div class="roadmap-item" style="background-image: linear-gradient(45deg, rgb(114, 166, 214), rgb(36, 9, 58));">
+          <h3>Frontend Development</h3>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript (ES6+)</li>
+            <li>Responsive Web Design</li>
+            <li>Version Control (e.g., Git)</li>
+            <li>Frontend Frameworks (e.g., React, Angular, Vue.js)</li>
+            <li>Package Managers (e.g., npm, yarn)</li>
+          </ul>
+        </div>
+        <div class="roadmap-item" style="background-image: linear-gradient(45deg, rgb(141, 114, 214), transparent);">
+          <h3>Backend Development</h3>
+          <ul>
+            <li>Server-side Languages (e.g., Node.js, Python, Ruby)</li>
+            <li>Web Servers (e.g., Express.js, Flask, Django)</li>
+            <li>RESTful APIs</li>
+            <li>Database Management (e.g., SQL, NoSQL)</li>
+            <li>Authentication & Authorization</li>
+            <li>Web Security Best Practices</li>
+          </ul>
+        </div>
+        <div class="roadmap-item" style="background-image: linear-gradient(45deg, rgb(114, 214, 184), rgb(65, 57, 57));">
+          <h3>DevOps</h3>
+          <ul>
+            <li>Containerization (e.g., Docker)</li>
+            <li>Continuous Integration / Continuous Deployment (CI/CD)</li>
+            <li>Cloud Platforms (e.g., AWS, Azure, Google Cloud)</li>
+            <li>Monitoring & Logging</li>
+            <li>Infrastructure as Code (IaC)</li>
+            <li>Automated Testing</li>
+          </ul>
+        </div>
+      </section>
+      <section class="yt-channels">
+        <h2>Best YouTube Channels for Developers</h2>
+        <div class="yt-channel-card">
+          <h3>Traversy Media</h3>
+          <p>Lang: English</p>
+          <a href="https://www.youtube.com/user/TechGuyWeb" class="yt-btn" target="_blank">Go to YouTube</a>
+        </div>
+        <!-- Add more channels -->
+        <div class="yt-channel-card">
+          <h3>Arabic Programmer</h3>
+          <p>Lang: Arabic</p>
+          <a href="https://www.youtube.com/channel/UCqtH...qZN6XRFx8mnj5g" class="yt-btn" target="_blank">Go to YouTube</a>
+        </div>
+        <div class="yt-channel-card">
+          <h3>Ahmed Elhamy</h3>
+          <p>Lang: Arabic</p>
+          <a href="https://www.youtube.com/channel/UCxOzJJ-ycWKzBhjmTb-7mDg" class="yt-btn" target="_blank">Go to YouTube</a>
+        </div>
+        <div class="yt-channel-card">
+          <h3>DevOps Arabic</h3>
+          <p>Lang: Arabic</p>
+          <a href="https://www.youtube.com/channel/UC-7K6FrbnxKmB9-_gjL9Nsw" class="yt-btn" target="_blank">Go to YouTube</a>
+        </div>
+        <div class="yt-channel-card">
+          <h3>Code4Startup</h3>
+          <p>Lang: Arabic</p>
+          <a href="https://www.youtube.com/channel/UC0DxhUeJ9J_kx8T2wGpRbbg" class="yt-btn" target="_blank">Go to YouTube</a>
+        </div>
+        <div class="yt-channel-card">
+          <h3>Programming with Mosh - Arabic</h3>
+          <p>Lang: Arabic</p>
+          <a href="https://www.youtube.com/channel/UC9KvKOYbJaO7zPZzX0B5zVg" class="yt-btn" target="_blank">Go to YouTube</a>
+        </div>
+        <div class="yt-channel-card">
+          <h3>Hossam Edine Ahmed</h3>
+          <p>Lang: Arabic</p>
+          <a href="https://www.youtube.com/channel/UCrR25cK5X1fhbhvDh0iUoGw" class="yt-btn" target="_blank">Go to YouTube</a>
+        </div>
+        <div class="yt-channel-card">
+          <h3>Yazin Alwafi</h3>
+          <p>Lang: Arabic</p>
+          <a href="https://www.youtube.com/channel/UCwRK8xokh6t2rhYgGrFOavA" class="yt-btn" target="_blank">Go to YouTube</a>
+        </div>
+        <div class="yt-channel-card">
+          <h3>The Net Ninja</h3>
+          <p>Lang: English</p>
+          <a href="https://www.youtube.com/user/thenetninja" class="yt-btn" target="_blank">Go to YouTube</a>
+        </div>
+        <div class="yt-channel-card">
+          <h3>Codecademy</h3>
+          <p>Lang: English</p>
+          <a href="https://www.youtube.com/user/Codecademy" class="yt-btn" target="_blank">Go to YouTube</a>
+        </div>
+        <div class="yt-channel-card">
+          <h3>Coding Tech</h3>
+          <p>Lang: English</p>
+          <a href="https://www.youtube.com/channel/UCtxCXg-UvSnTKPOzLH4wJaQ" class="yt-btn" target="_blank">Go to YouTube</a>
+        </div>
+        <div class="yt-channel-card">
+          <h3>Corey Schafer</h3>
+          <p>Lang: English</p>
+          <a href="https://www.youtube.com/user/schafer5" class="yt-btn" target="_blank">Go to YouTube</a>
+        </div>
+        <!-- Add more channels -->
+        <div class="yt-channel-card">
+          <h3>Academind</h3>
+          <p>Lang: English</p>
+          <a href="https://www.youtube.com/user/academind" class="yt-btn" target="_blank">Go to YouTube</a>
+        </div>
+        <div class="yt-channel-card">
+          <h3>Traversy Media</h3>
+          <p>Lang: English</p>
+          <a href="https://www.youtube.com/user/TechGuyWeb" class="yt-btn" target="_blank">Go to YouTube</a>
+        </div>
+        <div class="yt-channel-card">
+          <h3>freeCodeCamp.org</h3>
+          <p>Lang: English</p>
+          <a href="https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ" class="yt-btn" target="_blank">Go to YouTube</a>
+        </div>
+        <div class="yt-channel-card">
+          <h3>The Net Ninja</h3>
+          <p>Lang: English</p>
+          <a href="https://www.youtube.com/user/thenetninja" class="yt-btn" target="_blank">Go to YouTube</a>
+        </div>
+        <div class="yt-channel-card">
+          <h3>Programming with Mosh</h3>
+          <p>Lang: English</p>
+          <a href="https://www.youtube.com/user/programmingwithmosh" class="yt-btn" target="_blank">Go to YouTube</a>
+        </div>
+        <div class="yt-channel-card">
+          <h3>Elzero Web School</h3>
+          <p>Lang: Arabic</p>
+          <a href="https://www.youtube.com/user/programmingwithmosh" class="yt-btn" target="_blank">Go to YouTube</a>
+        </div>
+        <!-- Add more channels -->
+      </section>
+      
+            
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>About Coding Space</h3>
+        <p>Coding space is a small WebSite provide for you online Text Editor for <b>Html & CSS & JavaScript</b>  with live Result and give you some information about the Web Developing like Frame Works Road Maps and best YouTube channels to learning coding for free </p>
+      </div>
+      <div class="footer-section">
+        <h3>Website Parts</h3>
+        <ul>
+          <li><a href="#coding" class="current">Coding</a></li>
+          <li><a href="#ForYou">For You</a></li>
+          <li><a href="#frameworks">Frame Works</a></li>
+          <li><a href="#roadmap">Road Map</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Contact Us</h3>
+        <p>Email: lazar2001lazar@gmail.com</p>
+        <p>Phone: +212 776773055</p>
+        <p>Country: Morocco</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Coding Space. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
